@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    /* colors and gradients*/
+    --white: #ffffff;
+    --royalblue: #245785;
+    --textblue1: #2E99D5;
+    --textblue2: #389ED7;
+    --textblack1: #555A61;
+    --textblack2: #333333;
+    --textblack3: #1F2025;
+    --gray: #C4C4C4;
+    --densesmoke: #ACACAC;
+    --smoke: #F1FCFF;
+
+    --imggradient: to top right, #A5CDDA 100%,#245785 100%;
+    --footergradient: to bottom,#202126 100%,#555A62 100%;
+
+    /*font and font families */
+    --font1: filson Pro;
+    --font2: Roboto;
+    
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    place-content: center;
+}
